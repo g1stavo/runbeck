@@ -6,7 +6,8 @@
   "scripts": {
     "theme": "CYPRESS_APIKEY=$apikey CYPRESS_VERSION=$version npx cypress run --browser chrome --no-exit --spec 'cypress/integration/theme_publish.js'",
     "launch-stg": "CYPRESS_APIKEY=$apikey CYPRESS_DISK_SIZE=$disk_size npx cypress run --browser chrome --no-exit --spec 'cypress/integration/stg-01-launch-apikey.js'",
-    "front-stg": "CYPRESS_APIKEY=$apikey CYPRESS_BRANCH=$branch npx cypress run --browser chrome --no-exit --spec 'cypress/integration/stg-frontend-intersect.js'"
+    "front-stg": "CYPRESS_APIKEY=$apikey CYPRESS_BRANCH=$branch npx cypress run --browser chrome --no-exit --spec 'cypress/integration/stg-frontend-intersect.js'",
+    "back-stg": "CYPRESS_APIKEY=$apikey CYPRESS_BRANCH_LOJAS=$branch_lojas npx cypress run --browser chrome --no-exit --spec 'cypress/integration/stg-backend-intersect.js'"
   },
   "repository": {
     "type": "git",

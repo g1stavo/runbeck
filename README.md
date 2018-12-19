@@ -30,3 +30,8 @@ $ apikey=autoline disk_size=20 npm run launch-stg
 ```shell
 $ apikey=autoline branch=test npm run front-stg
 ```
+
+* stg-backend-intersect
+```shell
+$ apikey=autoline branch_lojas=test npm run back-stg
+```
