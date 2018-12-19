@@ -15,3 +15,8 @@ Edit ```cypress.json```, inserting your Rundeck username in ```USERNAME``` and R
 ```shell
 $ apikey=x version=x npm run theme
 ```
+
+* stg-01-launch-apikey
+```shell
+$ apikey=x disk_size=x npm run launch-staging
+```
