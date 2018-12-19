@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "theme": "CYPRESS_APIKEY=$APIKEY CYPRESS_VERSION=$VERSION npx cypress run --browser chrome --no-exit --spec 'cypress/integration/theme_publish.js'"
   },
   "repository": {
     "type": "git",
