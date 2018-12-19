@@ -12,7 +12,6 @@ Edit ```cypress.json```, inserting:
 
 * Rundeck password as the value of ```PASSWORD```.
 
-Save the file.
 
 ### Jobs supported and examples
 
