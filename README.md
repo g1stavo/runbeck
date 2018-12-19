@@ -8,15 +8,15 @@ Tool to automate job execution.
 
 Edit ```cypress.json```, inserting your Rundeck username in ```USERNAME``` and Rundeck password in, of course, ```PASSWORD```. Save the file.
 
-### Jobs supported
+### Jobs supported and examples
 
 * theme_publish 
 
 ```shell
-$ apikey=x version=x npm run theme
+$ apikey=qdb-vtex version=v1.0.139 npm run theme
 ```
 
 * stg-01-launch-apikey
 ```shell
-$ apikey=x disk_size=x npm run launch-staging
+$ apikey=autoline disk_size=20 npm run launch-staging
 ```
