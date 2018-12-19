@@ -6,7 +6,13 @@ Tool to automate job execution.
 
 ### Configuration
 
-Edit ```cypress.json```, inserting your Rundeck username in ```USERNAME``` and Rundeck password in, of course, ```PASSWORD```. Save the file.
+Edit ```cypress.json```, inserting:
+
+* Rundeck username as the value of ```USERNAME``` and
+
+* Rundeck password as the value of ```PASSWORD```.
+
+Save the file.
 
 ### Jobs supported and examples
 
