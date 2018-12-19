@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "theme": "CYPRESS_APIKEY=$apikey CYPRESS_VERSION=$version npx cypress run --browser chrome --no-exit --spec 'cypress/integration/theme_publish.js'"
+    "theme": "CYPRESS_APIKEY=$apikey CYPRESS_VERSION=$version npx cypress run --browser chrome --no-exit --spec 'cypress/integration/theme_publish.js'",
+    "launch-staging": "CYPRESS_APIKEY=$apikey CYPRESS_DISK_SIZE=$disk_size npx cypress run --browser chrome --no-exit --spec 'cypress/integration/stg-01-launch-apikey.js'"
   },
   "repository": {
     "type": "git",

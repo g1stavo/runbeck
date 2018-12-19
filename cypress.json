@@ -2,9 +2,10 @@
     "chromeWebSecurity": false,
     "video": false,
     "env": {
+        "USERNAME": "",
+        "PASSWORD": "",
         "APIKEY": "",
         "VERSION": "",
-        "USERNAME": "",
-        "PASSWORD": ""
+        "DISK_SIZE": "8"
     }
 }
