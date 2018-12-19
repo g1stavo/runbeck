@@ -23,5 +23,10 @@ $ apikey=qdb-vtex version=v1.0.139 npm run theme
 
 * stg-01-launch-apikey
 ```shell
-$ apikey=autoline disk_size=20 npm run launch-staging
+$ apikey=autoline disk_size=20 npm run launch-stg
+```
+
+* stg-frontend-intersect
+```shell
+$ apikey=autoline branch=test npm run front-stg
 ```
