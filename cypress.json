@@ -1,3 +1,10 @@
 {
-    "chromeWebSecurity": false
+    "chromeWebSecurity": false,
+    "video": false,
+    "env": {
+        "APIKEY": "",
+        "VERSION": "",
+        "USERNAME": "",
+        "PASSWORD": ""
+    }
 }
