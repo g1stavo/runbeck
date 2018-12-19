@@ -6,6 +6,7 @@
         "PASSWORD": "",
         "APIKEY": "",
         "VERSION": "",
-        "DISK_SIZE": "8"
+        "DISK_SIZE": "8",
+        "BRANCH": "master"
     }
 }
