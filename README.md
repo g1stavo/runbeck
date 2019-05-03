@@ -1,8 +1,6 @@
 # Runbeck
 
-[![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
-
-Tool to automate job execution.
+Tool to automate job execution
 
 <img src="https://projects.task.gda.pl/uploads/-/system/project/avatar/135/rundeck_logo_white.png" width="150" height="150" title="Rundeck logo">
 
